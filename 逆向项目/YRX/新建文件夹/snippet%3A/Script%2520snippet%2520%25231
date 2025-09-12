@@ -1,0 +1,8 @@
+_Fucntion = Function 
+Function.prototype.constructor = function(){
+    if (arguments[0].indexOf("debugger")!= -1){
+        reutrn _Fucntion('')
+    }
+    else:
+        return _Fucntion(arguments[0])
+}
